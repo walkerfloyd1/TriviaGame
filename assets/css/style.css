@@ -1,0 +1,28 @@
+body {
+    background-color: gold;
+}
+
+
+#question {
+    padding: 50px;
+}
+.jumbotron {
+    margin: 100px;
+    background-color: gray;
+    color: gold;
+}
+input[type=radio] {
+    margin: 20px;
+}
+#timer {
+    position: fixed;
+    down: 100px;
+}
+#submit {
+    align-content: center;
+    length: fill;
+}
+
+header {
+    margin-left: 490px;
+}
