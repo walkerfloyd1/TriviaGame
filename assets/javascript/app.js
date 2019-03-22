@@ -111,14 +111,11 @@ $(document).ready(function () {
 
             }
             startGame();
+            
 
             function endGame() {
                 alert("You guessed correctly " + correct + " times, and guessed incorrectly " + incorrect + " times.")
             }
-
-            $("#submitButton").on("click", endGame());
+            $("#submit").on("click", endGame);
 
         });
-    ;    
-
-;
